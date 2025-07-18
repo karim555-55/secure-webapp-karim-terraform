@@ -1,0 +1,25 @@
+# Terraform generated directories and files
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfplan
+.terraform.lock.hcl
+
+# Terraform override files (optional local configs)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Logs and crash reports
+crash.log
+
+# Security sensitive files (private keys)
+*.pem
+*.key
+
+# Visual Studio Code settings
+.vscode/
+
+# Local database for Flask app (SQLite file)
+flask_website/cuteblog-flask/cute.db
